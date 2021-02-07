@@ -57,6 +57,7 @@ namespace RequestProcessor.App.Menu
             catch (PerformException perform)
             {
                 return -1;
+
             }
         }
         public static void ConsoleWrite(string message)
