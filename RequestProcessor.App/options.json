@@ -1,0 +1,42 @@
+﻿[
+  {
+    "name": "NBU Rates (JSON)",
+    "address": "https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json",
+    "method": "GET",
+    "contentType": null,
+    "body": null,
+    "path": "nbu_rates.json"
+  },
+  {
+    "name": "NBU Rates (XML)",
+    "address": "https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?xml",
+    "method": "GET",
+    "contentType": null,
+    "body": null,
+    "path": "nbu_rates.xml"
+  },
+  {
+    "name": "Post",
+    "address": "https://reqbin.com/echo/post/json",
+    "method": "POST",
+    "contentType": "application/json",
+    "body": "{ \"Id\": 78912,\"Customer\":\"Jason Sweet\",\"Quantity\": 1,\"Price\": 18.00  }",
+    "path": "post.txt"
+  },
+  {
+    "name": "Patch",
+    "address": "https://jsonplaceholder.typicode.com/posts/1",
+    "method": "PATCH",
+    "contentType": null,
+    "body": null,
+    "path": "patch.txt"
+  },
+    {
+    "name": "NBU Rates 3 (JSON) PATCH null",
+    "address": "https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?xml",
+    "method": "PATCH",
+    "contentType": null,
+    "body": null,
+    "path": "nbu_rates3.json"
+  }
+]
